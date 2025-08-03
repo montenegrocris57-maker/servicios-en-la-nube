@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | Everest Cloud</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body, html{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {            
+            width: 98%;
+            max-width: 1400px;
+            margin: 0 ;
+            padding: 5px 0;
+        }
+        #contenedorlogo{   
+            background-image: url(logo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 100%;
+            width: 100%;
+            height: 100%;    
+            text-align: center;
+    
+        }
+        header{
+            background-image: url(1752633165095.jpg);
+            max-width: 100%;
+            width: 100%;
+            height: 30vh;
+            background-size:cover;
+            margin: 0; 
+            padding: 0; 
+      
+       
+
+        }
+        header p{
+            display: none;
+        }
+
+      
+        nav {
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            padding: 10px 0;
+        }
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #489cf7;
+            color: #ffffff;
+            border-radius: 25px;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 40px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .service-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .service-list li {
+            background-color: #e9f5ff;
+            border-left: 4px solid #007bff;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="contenedorlogo"></h1>
+        <a href="dashboard.html" style="text-decoration: none;">
+            
+        </a>
+        <p style="margin: 0; font-size: 1.2rem; color: #ffffff;">Conectando tu red con la nube perfecta.</p>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="dashboard.html">Inicio</a>
+            <a href="about.html">Acerca de Nosotros</a>
+            <a href="services.html">Servicios</a>
+            <a href="contact.html">Contacto</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section">
+            <h2>Nuestros Servicios</h2>
+            <p>En <strong>Everest Cloud</strong>, nos especializamos en el ciclo de vida completo de la nube. 
+                Nuestros servicios principales son:</p>
+            <ul class="service-list">
+                <li><strong>Consultoría y Arquitectura de Soluciones Cloud:</strong>
+                     Realizamos un diagnóstico exhaustivo de la infraestructura de TI existente
+                      de las empresas. A partir de este análisis, diseñamos arquitecturas cloud 
+                      personalizadas en Azure, que no solo cumplen con los requisitos técnicos, 
+                      sino que también integran principios de FinOps desde la concepción para
+                       asegurar la eficiencia de costos y la optimización del rendimiento a largo plazo.</li>
+                <li><strong>Implementación y Migración a la Nube: </strong>
+                     Ejecutamos migraciones complejas de sistemas, aplicaciones y datos a
+                     Azure de manera fluida y segura. Nuestro proceso incluye la planificación 
+                     detallada, la automatización del despliegue (utilizando herramientas
+                      como Terraform o ARM Templates para la Infraestructura como Código
+                       - IaC), la configuración de servicios esenciales y pruebas rigurosas
+                        para garantizar la integridad y funcionalidad post-migración.</li>
+                <li><strong>Optimización Continua y Gestión del Rendimiento:</strong>
+                      Ejecutamos migraciones complejas de sistemas, aplicaciones y datos 
+                     a Azure de manera fluida y segura. Nuestro proceso incluye la 
+                     planificación detallada, la automatización del despliegue
+                      (utilizando herramientas como Terraform o ARM Templates 
+                      para la Infraestructura como Código - IaC), la configuración 
+                      de servicios esenciales y pruebas rigurosas para garantizar la
+                       integridad y funcionalidad post-migración.</li>
+                <li><strong>Seguridad y Cumplimiento en la Nube: </strong>
+                     La seguridad es un pilar innegociable. Implementamos un marco 
+                    de seguridad robusto que incluye la gestión de identidades y accesos, 
+                    la protección contra amenazas avanzadas, el cifrado de datos, 
+                    y la configuración de redes seguras. Además, desarrollamos planes
+                     de Recuperación de Desastres (DR) y Continuidad del Negocio (BCP) 
+                     para garantizar la resiliencia operativa ante cualquier eventualidad..</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Everest Cloud. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
